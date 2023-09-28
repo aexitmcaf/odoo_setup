@@ -1,10 +1,10 @@
 # odoo_setup
-```wget -O /tmp/odoo-helper-install.bash https://gitlab.com/katyukha/odoo-helper-scripts/raw/master/install-system.bash```\
-```sudo bash /tmp/odoo-helper-install.bash;```\
-```odoo-helper install pre-requirements```\
-```odoo-helper install postgres```\
-```odoo-helper install sys-deps 16.0```\
-```odoo-install --odoo-version 16.0 --dev --archive --db-user odoo16 --create-db-user --http-port 15069```\
+```wget -O /tmp/odoo-helper-install.bash https://gitlab.com/katyukha/odoo-helper-scripts/raw/master/install-system.bash```
+```sudo bash /tmp/odoo-helper-install.bash;```
+```odoo-helper install pre-requirements```
+```odoo-helper install postgres```
+```odoo-helper install sys-deps 16.0```
+```odoo-install --odoo-version 16.0 --dev --archive --db-user odoo16 --create-db-user --http-port 15069```
 
 sudo apt install mc
 cd /home/alex/odoo-16.0

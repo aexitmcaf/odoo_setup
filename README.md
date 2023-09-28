@@ -1,5 +1,5 @@
 # odoo_setup
-`wget -O /tmp/odoo-helper-install.bash https://gitlab.com/katyukha/odoo-helper-`scripts/raw/master/install-system.bash;`
+`wget -O /tmp/odoo-helper-install.bash https://gitlab.com/katyukha/odoo-helper-`scripts/raw/master/install-system.bash`
 `sudo bash /tmp/odoo-helper-install.bash;`
 `odoo-helper install pre-requirements`
 `odoo-helper install postgres`

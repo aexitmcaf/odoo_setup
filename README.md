@@ -8,7 +8,13 @@ odoo-helper install sys-deps 16.0
 odoo-install --odoo-version 16.0 --dev --archive --db-user odoo16 --create-db-user --http-port 15069
 sudo apt install mc
 ```
+copi path from
+Odoo installation path: 
+adn put in terminal
+example
+cd /home/alex/PycharmProjects/odoo-16-2/odoo-16.0
 cd /home/alex/odoo-16.0
+and run mc and you will see file in mc
 ```
 mc
 ```
@@ -17,6 +23,7 @@ odoo-helper server --help
 ```
 ```
 odoo-helper start
+
 odoo-helper db --help
 odoo-helper db create --help
 odoo-helper db create --demo --tdb --install crm

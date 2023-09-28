@@ -6,10 +6,10 @@ odoo-helper install pre-requirements
 odoo-helper install postgres
 odoo-helper install sys-deps 16.0
 odoo-install --odoo-version 16.0 --dev --archive --db-user odoo16 --create-db-user --http-port 15069
-```
-```
 sudo apt install mc
+```
 cd /home/alex/odoo-16.0
+```
 mc
 ```
 ```

@@ -118,3 +118,7 @@ check code linter
 odoo-helper flake8 repositories/aexitmcaf/odoo-s/
 
 odoo-helper pylint repositories/aexitmcaf/odoo-s/
+
+#[Errno 98] Address already in use odoo
+ps -fA | grep python
+sudo kill -process id

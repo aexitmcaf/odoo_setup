@@ -58,6 +58,10 @@ in custom addons
 ```
 git clone -b 15 --single-branch --depth=1 git@github.com:GarazdCreation/odoo-school.git
 ```
+after you can link in reposutory folder 
+```
+odoo-helper link .
+```
 add path to config 
 /odoo-16.0/custom_addons/odoo-school
 

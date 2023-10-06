@@ -80,7 +80,7 @@ git status
 git diff
 ```
 ```
-git commit -am '[REF} school_lesson_6_1: change module summary'
+git commit -am '[REF] school_lesson_6_1: change module summary'
 ```
 ```
 git push --set-upstream origin

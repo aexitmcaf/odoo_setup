@@ -37,10 +37,10 @@ email  admin
 password  admin
 ```
 
-```
+
 install addons 
-```
-```
+
+
 install git
 ```
 sudo apt install git

@@ -116,36 +116,50 @@ odoo-helper scaffold kw_library repositories/aexitmcaf/odoo-s
 ad models security views
 
 instal module
+```
 odoo-helper-addons install kw_library
+```
 
 check code linter
+```
 odoo-helper flake8 repositories/aexitmcaf/odoo-s/
-
+```
+```
 odoo-helper pylint repositories/aexitmcaf/odoo-s/
+```
 
 # Error
 [Errno 98] Address already in use odoo
+```
 ps -fA | grep python
 sudo kill -process id
+```
 
 # install PgAdmin
+```
 curl  -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+```
 then install curl if need
 
 then
+```
 sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
+```
 
 then
  check the contents of the repository file created using the following command
+ ```
 $ cat /etc/apt/sources.list.d/pgadmin4.list
+```
 
 then
+```
 1- sudo apt-get install wget ca-certificates
 2- sudo apt-get update
 3- sudo apt-get upgrade
 4- sudo apt-get install pgadmin4
 deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main
-
+```
 #check pull request
 ```
 git pull origin pull/5/head

@@ -50,7 +50,7 @@ git config --global user.email alexitmcaf@gmail.com
 ```
 
 create ssh key
-
+```
 ssh-keygen -t rsa -b 4098
 enter enter enter
 ```

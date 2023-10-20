@@ -96,7 +96,9 @@ add configuration
 ```
 /home/alex/odoo-16.0/odoo/odoo-bin
 ```
+```
 -c /home/alex/odoo-16.0/conf/odoo.conf
+```
 ```
 /home/alex/odoo-16.0/odoo
 ```
@@ -106,17 +108,25 @@ odoo-helper-fetch -r https://github.com/OCA/web.git
 ```
 
 create dir probe in repositories dir and run
+```
 odoo-helper scaffold myaddon .
+```
 add to custom_addons
+```
 odoo-helper link .
+```
 install myaddon
+```
 odoo-helper-addons install myaddon
 add for install from custom addons
 odoo-helper link .
+```
 
 
 for update we can add to run configuration in Parametrs box: 
+```
 -u myaddon
+```
 
 # create module
 ```

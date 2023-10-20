@@ -12,8 +12,10 @@ copi path from
 Odoo installation path: 
 adn put in terminal
 example
+```
 cd /home/alex/PycharmProjects/odoo-16-2/odoo-16.0
 cd /home/alex/odoo-16.0
+```
 and run mc and you will see file in mc
 ```
 mc
@@ -40,12 +42,14 @@ install addons
 ```
 ```
 install git
+```
 sudo apt install git
 git config --global user.name "Oleksandr M"
 git config --global user.email alexitmcaf@gmail.com
 ```
 ```
 create ssh key
+```
 ssh-keygen -t rsa -b 4098
 enter enter enter
 ```
@@ -110,8 +114,10 @@ for update we can add to run configuration in Parametrs box:
 -u myaddon
 
 # create module
+```
 odoo-helper-fetch -r git@github.com:aexitmcaf/odoo-s.git
 odoo-helper scaffold kw_library repositories/aexitmcaf/odoo-s
+```
 
 ad models security views
 

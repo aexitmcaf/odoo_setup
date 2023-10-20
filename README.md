@@ -44,6 +44,7 @@ install addons
 install git
 ```
 sudo apt install git
+```
 git config --global user.name "Oleksandr M"
 git config --global user.email alexitmcaf@gmail.com
 ```

@@ -145,3 +145,8 @@ then
 3- sudo apt-get upgrade
 4- sudo apt-get install pgadmin4
 deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main
+
+#check pull request
+```
+git pull origin pull/5/head
+```

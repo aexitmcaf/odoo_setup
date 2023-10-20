@@ -93,12 +93,17 @@ git push --set-upstream origin 15.0-TASK-1.4
 
 config pyCharm
 add configuration
+```
 /home/alex/odoo-16.0/odoo/odoo-bin
+```
 -c /home/alex/odoo-16.0/conf/odoo.conf
+```
 /home/alex/odoo-16.0/odoo
+```
 comment in odoo.conf; logfile = /home/alex/odoo-16.0/logs/odoo.log
-
+```
 odoo-helper-fetch -r https://github.com/OCA/web.git
+```
 
 create dir probe in repositories dir and run
 odoo-helper scaffold myaddon .

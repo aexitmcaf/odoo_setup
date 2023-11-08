@@ -198,3 +198,10 @@ git checkout -b testing origin/testing
 git pull
 git branch
 ```
+version tag
+```
+git tag v1.0.0
+git push origin v1.0.0
+git checkout v1.0.0
+git log -pretty=online
+```

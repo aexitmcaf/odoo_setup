@@ -187,7 +187,8 @@ deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main
 ```
 git pull origin pull/5/head
 ```
-
+branches
+```
 git clone git@github.com:MORPSmcaf/resource_management.git
 git branch
 git branch -a

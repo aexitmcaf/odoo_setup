@@ -190,7 +190,7 @@ git pull origin pull/5/head
 
 branches
 ```
-git clone git@github.com:MORPSmcaf/resource_management.git
+git clone git@github.com...............................
 git branch
 git branch -a
 git checkout -b testing origin/testing

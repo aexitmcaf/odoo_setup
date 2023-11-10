@@ -188,10 +188,14 @@ deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bullseye pgadmin4 main
 git pull origin pull/5/head
 ```
 
-branches
+#check remote branches 
 ```
 git clone git@github.com...............................
-git branch
+git branch -r
+git fetch origin <remote branche name>
+git checkout <remote branche name>
+
+git clone git@github.com...............................
 git branch -a
 git checkout -b testing origin/testing
 

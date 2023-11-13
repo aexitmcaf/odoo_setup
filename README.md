@@ -212,3 +212,40 @@ kill proucess
 ```
 sudo pkill python
 ```
+#test module with tag (library), add conf after -i in odoo-bin 
+```
+school_lesson_6_4
+--test-tags
+library
+--test-enable
+--log-level=test
+--stop-after-init
+```
+#test without for example (access) tag
+```
+school_lesson_6_4
+--test-tags=-access
+--log-level=test
+--stop-after-init
+```
+#test module school_lesson_6_4, add / and name module
+```
+school_lesson_6_4
+--test-tags=-access/school_lesson_6_4
+--log-level=test
+--stop-after-init
+```
+#run test for TestForm class in school_lesson_6_4, add : and class name
+```
+school_lesson_6_4
+--test-tags=/school_lesson_6_4:TestForm
+--log-level=test
+--stop-after-init
+```
+#run test for method test_02_library_admin_access_rights from TestAccessRights class in school_lesson_6_4, add : and class name . and method name
+```
+school_lesson_6_4
+--test-tags=/school_lesson_6_4:TestAccessRights.test_02_library_admin_access_rights
+--log-level=test
+--stop-after-init
+```

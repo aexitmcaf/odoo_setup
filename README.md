@@ -156,6 +156,7 @@ odoo-helper pylint repositories/aexitmcaf/odoo-s/
 ```
 ps -fA | grep python
 sudo kill -process id
+sudo pkill python
 ```
 
 # install PgAdmin

@@ -150,6 +150,9 @@ odoo-helper flake8 repositories/aexitmcaf/odoo-s/
 ```
 odoo-helper pylint repositories/aexitmcaf/odoo-s/
 ```
+```
+odoo-helper lint pylint .
+```
 
 # Error
 [Errno 98] Address already in use odoo

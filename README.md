@@ -158,6 +158,7 @@ odoo-helper lint pylint .
 [Errno 98] Address already in use odoo
 ```
 ps -fA | grep python
+kill -9 000000
 sudo kill -process id
 sudo pkill python
 ```

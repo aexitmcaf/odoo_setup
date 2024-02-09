@@ -254,3 +254,9 @@ school_lesson_6_4
 --log-level=test
 --stop-after-init
 ```
+
+#ssh
+```
+cd ~/.ssh
+cat id_rsa.pub
+```

@@ -59,3 +59,12 @@ pip install psycopg2-binary
 python odoo-bin
 
 cecc-epe5-frt5 odoo17 master pass
+
+
+
+for pdf error :
+wget https //archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1f-1ubuntu2_amd64.deb
+
+rsgggggggggggggggggggggggggggggggggggggggggggggg
+
+sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb

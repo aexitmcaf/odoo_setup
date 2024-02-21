@@ -116,18 +116,29 @@ for that open odoo_projects/odoo17 requirements.txt and remove directly (
 )
 
 ang again run 
+```
 pip install -r requirements.txt
-
+```
+```
 pip install psycopg2-binary
-
+```
+```
 python odoo-bin
+```
+
+#for pdf error :
+```
+sudo apt-get install libssl1.1
+```
+```
+wget https //archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1f-1ubuntu2_amd64.deb
+```
+```
+sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+```
+```
+sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
+```
+
 
 cecc-epe5-frt5 odoo17 master pass
-
-
-
-for pdf error :
-sudo apt-get install libssl1.1
-wget https //archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1f-1ubuntu2_amd64.deb
-sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
-sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb

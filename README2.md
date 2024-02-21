@@ -107,7 +107,6 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-```
 
 #you will get (ERROR: Could not build wheels for psycopg2, python-ldap, which is required to install pyproject.toml-based projects)
 for that open odoo_projects/odoo17 requirements.txt and remove directly (

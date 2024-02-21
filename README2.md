@@ -1,5 +1,5 @@
 ```sudo apt-get update```
-sudo apt-get upgrade
+```sudo apt-get upgrade```
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.11 -y
 sudo apt-get install git

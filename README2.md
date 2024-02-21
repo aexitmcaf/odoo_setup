@@ -78,7 +78,6 @@ npm audit fix --force
 sudo apt-get install -y node-less
 ```
 ```
-```
 sudo apt-get install postgresql
 ```
 ```

@@ -38,6 +38,8 @@ password  admin
 ```
 
 
+qyxq vjhe glsh xzmc
+
 install addons 
 
 

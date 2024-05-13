@@ -262,3 +262,10 @@ school_lesson_6_4
 cd ~/.ssh
 cat id_rsa.pub
 ```
+
+```
+git clone git@github.com: some  repo url
+git fetch origin main
+git checkout main
+git merge develop
+```

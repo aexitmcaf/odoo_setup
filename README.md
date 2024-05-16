@@ -268,4 +268,6 @@ git clone git@github.com: some  repo url
 git fetch origin main
 git checkout main
 git merge develop
+git tag v1.0.0
+git push origin v1.0.0
 ```

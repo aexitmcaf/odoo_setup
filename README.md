@@ -314,8 +314,8 @@ Host github.com-mcr
   User git
   IdentityFile ~/.ssh/id_rsa_mcr
 ```
-
+```
 git clone git@github.com-mc:mc/res.git
 
 git clone git@github.com-mcr:mcr/res.git
-
+```

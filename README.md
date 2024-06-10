@@ -284,23 +284,26 @@ mkdir -p ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "mc@gmail.com" -f ~/.ssh/id_rsa_mc
 
 ssh-keygen -t rsa -b 4096 -C "mcr@gmail.com" -f ~/.ssh/id_rsa_mcr
-
-Start the SSH agent and add the generated keys:
+```
+#Start the SSH agent and add the generated keys:
+```
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa_mc
 ssh-add ~/.ssh/id_rsa_mcr
+```
+#Copy the new public keys to your clipboard:
 
-Copy the new public keys to your clipboard:
-
+```
 cat ~/.ssh/id_rsa_mc.pub
 cat ~/.ssh/id_rsa_mcr.pub
+```
+#Edit the SSH config file to specify which key to use for each host:
 
-Edit the SSH config file to specify which key to use for each host:
-
+```
 nano ~/.ssh/config
-
-Add the following configurations:
-
+```
+#Add the following configurations:
+```
 Host github.com-mc
   HostName github.com
   User git
@@ -310,7 +313,7 @@ Host github.com-mcr
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_rsa_mcr
-
+```
 
 git clone git@github.com-mc:mc/res.git
 

@@ -283,7 +283,7 @@ mkdir -p ~/.ssh
 
 ssh-keygen -t rsa -b 4096 -C "mc@gmail.com" -f ~/.ssh/id_rsa_mc
 
-ssh-keygen -t rsa -b 4096 -C "mcrs@mcaf.nb.ca" -f ~/.ssh/id_rsa_mcr
+ssh-keygen -t rsa -b 4096 -C "mcr@gmail.com" -f ~/.ssh/id_rsa_mcr
 
 Start the SSH agent and add the generated keys:
 eval "$(ssh-agent -s)"

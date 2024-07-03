@@ -319,3 +319,24 @@ git clone git@github.com-mc:mc/res.git
 
 git clone git@github.com-mcr:mcr/res.git
 ```
+if it is error 
+ERROR: Permission to mcafmorps/resource_management.git denied to MORPSmcaf.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists
+```
+
+sudo nano ~/.ssh/config
+```
+git remote -v
+```
+#check
+```
+ssh -T git@github.com-something
+ssh -T git@github.com-something2
+```
+#run
+```
+git remote set-url origin git@github.com-something:.....................git
+```
